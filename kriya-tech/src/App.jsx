@@ -1,11 +1,21 @@
-import React from 'react'
+import React from "react";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Section from "./components/Section";
+import Cards from "./components/Cards";
+import Footer from "./components/Footer";
+
 
 const App = () => {
   return (
     <div>
-      <h1 className='bg-slate-500 text-5xl font-bold font-serif h-screen text-center'>Kriya Tech</h1>
+      <Navbar />
+      <Hero />
+      <Section />
+      <Cards />
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
