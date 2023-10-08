@@ -2,17 +2,6 @@
 
 We are a creative tech company offering services in tech, design, interviews, hiring, etc. We are team of 1-10 members, collaborating with each other to create a awesome website for the world!
 
-### What is Hacktoberfest? 
-
-Hacktoberfest is an annual worldwide event held during the month of October. The event encourages open source developers to contribute to repositories through pull requests (PR). Hacktoberfest has grown from 676 participants in 2014 to nearly 147,000 participants last year. This year Hacktoberfest is celebrating it's 10 years of open-source contribution.
-
-### How to participate in Hacktoberfest?
-
--   First sign up on the [Hacktoberfest site](https://hacktoberfest.com/).
--   To qualify for digital swags, you must register and make four pull requests between October 1-31.
--   You can contribute to this KriyaTech repository or any public repository on GitHub.
--   If a maintainer reports your pull request as spam or behavior not in line with the project’s code of conduct, you will be ineligible to participate.
-
 ## How to contribute to this repo?
 
 ### Step 1: Fork this repository
@@ -39,8 +28,7 @@ For example:
 git clone https://github.com/your-username/kriya.tech.git
 ```
 
-### Step 3: Create a branch
-
+### Step 3: Create a new branch:
 Change to the repository directory on your computer (if you are not already there):
 
 ```
@@ -52,6 +40,24 @@ Now, create a branch using the `git checkout` command:
 ```
 git checkout -b your-new-branchname
 ```
+### Step 5: Setup the TailwindCSS with Vite
+First open the terminal 
+
+![image](https://github.com/Neelyooo/kriya.tech/assets/135664115/d8065186-7444-49aa-927b-1b91520f9ee2)
+
+Enter this command to install the required dependencies:
+
+```
+npm install -D tailwindcss postcss autoprefixer --force
+```
+
+Run your build process with `npm run dev`.
+
+Now click on follow the link to open the local server.
+
+![image](https://github.com/Neelyooo/kriya.tech/assets/135664115/d690ba62-e1bf-4e78-a430-40aa8c2788a5)
+
+![image](https://github.com/Neelyooo/kriya.tech/assets/135664115/6cdabab9-d436-4aa1-8484-0a4dfbd039cf)
 
 ### Step 4: Make necessary changes and commit them
 
