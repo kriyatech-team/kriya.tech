@@ -4,7 +4,7 @@ import Hero from "./components/Hero";
 import Section from "./components/Section";
 import Cards from "./components/Cards";
 import Footer from "./components/Footer";
-
+import ContactPage from "./ContactPage";
 
 const App = () => {
   return (
@@ -14,6 +14,7 @@ const App = () => {
       <Section />
       <Cards />
       <Footer />
+      <ContactPage />
     </div>
   );
 };
