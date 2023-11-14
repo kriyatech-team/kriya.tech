@@ -5,11 +5,13 @@ import Company from './Pages/Company';
 import Service from './Pages/Service';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
+import Navbar from './components/Navbar';
 
 const App = () => {
   return (
     <>
       <Router>
+        <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/company' element={<Company />} />

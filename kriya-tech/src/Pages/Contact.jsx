@@ -1,9 +1,12 @@
 import React from 'react'
+import ContactForm from '../Contact/ContactForm'
+import Footer from '../components/Footer'
 
 const Contact = () => {
     return (
         <div>
-            <h1>This is Contact Page.</h1>
+            <ContactForm />
+            <Footer />
         </div>
     )
 }

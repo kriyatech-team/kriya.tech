@@ -1,9 +1,16 @@
 import React from 'react'
+import ServiceHome from '../Service/ServiceHome'
+import OurService from '../Service/OurService'
+import OurTeam from '../Service/OurTeam'
+import Footer from '../components/Footer'
 
 const Service = () => {
     return (
         <div>
-            <h1>This is Service Page.</h1>
+            <ServiceHome />
+            <OurService />
+            <OurTeam />
+            <Footer />
         </div>
     )
 }
