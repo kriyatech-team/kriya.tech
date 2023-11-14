@@ -1,11 +1,19 @@
 import React from 'react'
+import ComapanyHero from '../Company/CompanyHero'
+import Sponsors from '../Company/Sponsors'
+import Benefits from '../Company/Benefits'
+import Footer from '../components/Footer'
 
 const Company = () => {
     return (
-        <div>
-            <h1>This is the Company Page.</h1>
-        </div>
+        <>
+            <ComapanyHero />
+            <Sponsors />
+            <Benefits />
+            <Footer />
+        </>
     )
+
 }
 
 export default Company
